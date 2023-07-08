@@ -8,6 +8,6 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
 name = "pipelinerg"
-location = "east us
+location = "east us"
 tags = {env = "prod"}
 }
