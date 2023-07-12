@@ -9,6 +9,7 @@ provider "azurerm" {
 resource "azurerm_resource_group" "rg" {
 name = var.rgname
 location = var.loc
+tags = {owner = "soumya"}
 }
 resource "azurerm_public_ip" "example" {
   name                = var.pipname
